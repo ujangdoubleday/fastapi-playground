@@ -1,5 +1,5 @@
 from typing import Union
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 class TodoBase(BaseModel):
     title: str
@@ -17,5 +17,4 @@ class TodoUpdate(TodoBase):
 class Todo(TodoBase):
     id: int
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
