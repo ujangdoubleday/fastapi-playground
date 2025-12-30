@@ -20,7 +20,7 @@ My playground for learning and experimenting with FastAPI.
 
    ```bash
    python -m venv .venv
-   source venv/bin/activate
+   source .venv/bin/activate
    ```
 
 3. **Install dependencies**
@@ -50,6 +50,12 @@ FastAPI provides automatic interactive documentation. Once the app is running, v
 
 - **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 - **ReDoc**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
+
+## Official Documentation
+
+- **FastAPI Documentation**: [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/)
+- **SQLAlchemy Documentation**: [https://docs.sqlalchemy.org/](https://docs.sqlalchemy.org/)
+- **Pydantic Documentation**: [https://docs.pydantic.dev/](https://docs.pydantic.dev/)
 
 ## Project Structure
 
