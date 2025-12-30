@@ -38,7 +38,15 @@ fastapi dev
 
 The API will be available at [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
-## Database Setup
+## Testing
+
+This project uses `pytest` for automated testing.
+
+```bash
+pytest
+```
+
+This runs all tests in the `tests/` directory using an in-memory database.
 
 The project is configured to use **SQLite**. The database file (`sql_app.db`) and tables are **automatically created** when you start the application for the first time.
 
